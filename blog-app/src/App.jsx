@@ -1,5 +1,8 @@
 import './App.css';
-import Card from './components/card/Card';
+import Map from './components/Map/Map';
+
+
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -7,7 +10,9 @@ function App() {
 
   return (
     <>
-   <Card titleText="Call Mother! "  desc="47 avenue reille"/>
+   {/* <Card titleText="Call Mother! "  desc="47 avenue reille"/> */}
+<Map/>
+   
    
 
     </>
